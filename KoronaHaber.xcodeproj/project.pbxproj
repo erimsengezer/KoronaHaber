@@ -16,6 +16,9 @@
 		0097A49B243147FA00E2A68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0097A499243147FA00E2A68C /* LaunchScreen.storyboard */; };
 		0097A4A6243147FA00E2A68C /* KoronaHaberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A4A5243147FA00E2A68C /* KoronaHaberTests.swift */; };
 		0097A4B1243147FA00E2A68C /* KoronaHaberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A4B0243147FA00E2A68C /* KoronaHaberUITests.swift */; };
+		00E74F3524314D5F00CA90DB /* CautionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E74F3424314D5F00CA90DB /* CautionViewController.swift */; };
+		00E74F3724314D9C00CA90DB /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E74F3624314D9C00CA90DB /* NotificationsViewController.swift */; };
+		00E74F39243150B000CA90DB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E74F38243150B000CA90DB /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		0097A4AC243147FA00E2A68C /* KoronaHaberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoronaHaberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0097A4B0243147FA00E2A68C /* KoronaHaberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoronaHaberUITests.swift; sourceTree = "<group>"; };
 		0097A4B2243147FA00E2A68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E74F3424314D5F00CA90DB /* CautionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CautionViewController.swift; sourceTree = "<group>"; };
+		00E74F3624314D9C00CA90DB /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		00E74F38243150B000CA90DB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				0097A48B243147F900E2A68C /* AppDelegate.swift */,
 				0097A48D243147F900E2A68C /* SceneDelegate.swift */,
 				0097A48F243147F900E2A68C /* ViewController.swift */,
+				00E74F3424314D5F00CA90DB /* CautionViewController.swift */,
+				00E74F3624314D9C00CA90DB /* NotificationsViewController.swift */,
+				00E74F38243150B000CA90DB /* CollectionViewCell.swift */,
 				0097A491243147F900E2A68C /* Main.storyboard */,
 				0097A497243147FA00E2A68C /* Assets.xcassets */,
 				0097A499243147FA00E2A68C /* LaunchScreen.storyboard */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E74F3524314D5F00CA90DB /* CautionViewController.swift in Sources */,
 				0097A496243147F900E2A68C /* KoronaHaber.xcdatamodeld in Sources */,
 				0097A490243147F900E2A68C /* ViewController.swift in Sources */,
+				00E74F39243150B000CA90DB /* CollectionViewCell.swift in Sources */,
+				00E74F3724314D9C00CA90DB /* NotificationsViewController.swift in Sources */,
 				0097A48C243147F900E2A68C /* AppDelegate.swift in Sources */,
 				0097A48E243147F900E2A68C /* SceneDelegate.swift in Sources */,
 			);
