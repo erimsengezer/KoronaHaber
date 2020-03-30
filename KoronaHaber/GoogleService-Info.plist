@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>564228745915-2c545i4rvfp59kjvr9hik8m4c33e3r1g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.564228745915-2c545i4rvfp59kjvr9hik8m4c33e3r1g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD9OLB5_EKO2T4gbXk4jul-pAnpcuhNo0I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>564228745915</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.erimsengezer.KoronaHaber</string>
+	<key>PROJECT_ID</key>
+	<string>korona-haber</string>
+	<key>STORAGE_BUCKET</key>
+	<string>korona-haber.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:564228745915:ios:8635f35fbcda05509f979e</string>
+	<key>DATABASE_URL</key>
+	<string>https://korona-haber.firebaseio.com</string>
+</dict>
+</plist>

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0013014524321E02003750CC /* stay-home.json in Resources */ = {isa = PBXBuildFile; fileRef = 0013014424321E02003750CC /* stay-home.json */; };
 		0097A48C243147F900E2A68C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A48B243147F900E2A68C /* AppDelegate.swift */; };
 		0097A48E243147F900E2A68C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A48D243147F900E2A68C /* SceneDelegate.swift */; };
 		0097A490243147F900E2A68C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A48F243147F900E2A68C /* ViewController.swift */; };
@@ -16,9 +17,14 @@
 		0097A49B243147FA00E2A68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0097A499243147FA00E2A68C /* LaunchScreen.storyboard */; };
 		0097A4A6243147FA00E2A68C /* KoronaHaberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A4A5243147FA00E2A68C /* KoronaHaberTests.swift */; };
 		0097A4B1243147FA00E2A68C /* KoronaHaberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A4B0243147FA00E2A68C /* KoronaHaberUITests.swift */; };
+		00CDDDFF243215C7008753BE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDDDFE243215C7008753BE /* WebViewController.swift */; };
 		00E74F3524314D5F00CA90DB /* CautionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E74F3424314D5F00CA90DB /* CautionViewController.swift */; };
 		00E74F3724314D9C00CA90DB /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E74F3624314D9C00CA90DB /* NotificationsViewController.swift */; };
 		00E74F39243150B000CA90DB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E74F38243150B000CA90DB /* CollectionViewCell.swift */; };
+		00F9CEBE2431F08800C15F30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00F9CEBD2431F08800C15F30 /* GoogleService-Info.plist */; };
+		5D6018D3D0277FAB4906990A /* Pods_KoronaHaber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E07996718F6D11DDB322080 /* Pods_KoronaHaber.framework */; };
+		DEC5E90F1512E14A26FF82F8 /* Pods_KoronaHaber_KoronaHaberUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662CDD8D8E02606EC94DD7B1 /* Pods_KoronaHaber_KoronaHaberUITests.framework */; };
+		F7FA2ABA4D45DFF674205C8C /* Pods_KoronaHaberTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD700EF7B9D17BCB4D0F8188 /* Pods_KoronaHaberTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0013014424321E02003750CC /* stay-home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "stay-home.json"; sourceTree = "<group>"; };
 		0097A488243147F900E2A68C /* KoronaHaber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoronaHaber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0097A48B243147F900E2A68C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0097A48D243147F900E2A68C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,9 +61,20 @@
 		0097A4AC243147FA00E2A68C /* KoronaHaberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoronaHaberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0097A4B0243147FA00E2A68C /* KoronaHaberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoronaHaberUITests.swift; sourceTree = "<group>"; };
 		0097A4B2243147FA00E2A68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CDDDFE243215C7008753BE /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		00E74F3424314D5F00CA90DB /* CautionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CautionViewController.swift; sourceTree = "<group>"; };
 		00E74F3624314D9C00CA90DB /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		00E74F38243150B000CA90DB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		00F9CEBD2431F08800C15F30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0E07996718F6D11DDB322080 /* Pods_KoronaHaber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoronaHaber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AAD22C88365CC08A8D4BC1 /* Pods-KoronaHaberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaberTests.debug.xcconfig"; path = "Target Support Files/Pods-KoronaHaberTests/Pods-KoronaHaberTests.debug.xcconfig"; sourceTree = "<group>"; };
+		547D5E2B11B2093CCAB87306 /* Pods-KoronaHaber-KoronaHaberUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaber-KoronaHaberUITests.release.xcconfig"; path = "Target Support Files/Pods-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaber-KoronaHaberUITests.release.xcconfig"; sourceTree = "<group>"; };
+		662CDD8D8E02606EC94DD7B1 /* Pods_KoronaHaber_KoronaHaberUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoronaHaber_KoronaHaberUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7664F2582CE11E1E9A4CC23D /* Pods-KoronaHaber-KoronaHaberUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaber-KoronaHaberUITests.debug.xcconfig"; path = "Target Support Files/Pods-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaber-KoronaHaberUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F984AA020BE7BAB6CE2BAD6 /* Pods-KoronaHaberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaberTests.release.xcconfig"; path = "Target Support Files/Pods-KoronaHaberTests/Pods-KoronaHaberTests.release.xcconfig"; sourceTree = "<group>"; };
+		A35D6D22670BC576E11CCE20 /* Pods-KoronaHaber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaber.debug.xcconfig"; path = "Target Support Files/Pods-KoronaHaber/Pods-KoronaHaber.debug.xcconfig"; sourceTree = "<group>"; };
+		DD700EF7B9D17BCB4D0F8188 /* Pods_KoronaHaberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoronaHaberTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC425C79F03BFAA48ED82896 /* Pods-KoronaHaber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaber.release.xcconfig"; path = "Target Support Files/Pods-KoronaHaber/Pods-KoronaHaber.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6018D3D0277FAB4906990A /* Pods_KoronaHaber.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7FA2ABA4D45DFF674205C8C /* Pods_KoronaHaberTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC5E90F1512E14A26FF82F8 /* Pods_KoronaHaber_KoronaHaberUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +112,8 @@
 				0097A4A4243147FA00E2A68C /* KoronaHaberTests */,
 				0097A4AF243147FA00E2A68C /* KoronaHaberUITests */,
 				0097A489243147F900E2A68C /* Products */,
+				1A6BE1B59C32468E0DD584CC /* Pods */,
+				5C82CE523F7DCE96986EE942 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,9 +138,12 @@
 				00E74F38243150B000CA90DB /* CollectionViewCell.swift */,
 				0097A491243147F900E2A68C /* Main.storyboard */,
 				0097A497243147FA00E2A68C /* Assets.xcassets */,
+				0013014424321E02003750CC /* stay-home.json */,
 				0097A499243147FA00E2A68C /* LaunchScreen.storyboard */,
 				0097A49C243147FA00E2A68C /* Info.plist */,
 				0097A494243147F900E2A68C /* KoronaHaber.xcdatamodeld */,
+				00F9CEBD2431F08800C15F30 /* GoogleService-Info.plist */,
+				00CDDDFE243215C7008753BE /* WebViewController.swift */,
 			);
 			path = KoronaHaber;
 			sourceTree = "<group>";
@@ -140,6 +166,29 @@
 			path = KoronaHaberUITests;
 			sourceTree = "<group>";
 		};
+		1A6BE1B59C32468E0DD584CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A35D6D22670BC576E11CCE20 /* Pods-KoronaHaber.debug.xcconfig */,
+				EC425C79F03BFAA48ED82896 /* Pods-KoronaHaber.release.xcconfig */,
+				7664F2582CE11E1E9A4CC23D /* Pods-KoronaHaber-KoronaHaberUITests.debug.xcconfig */,
+				547D5E2B11B2093CCAB87306 /* Pods-KoronaHaber-KoronaHaberUITests.release.xcconfig */,
+				44AAD22C88365CC08A8D4BC1 /* Pods-KoronaHaberTests.debug.xcconfig */,
+				9F984AA020BE7BAB6CE2BAD6 /* Pods-KoronaHaberTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C82CE523F7DCE96986EE942 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E07996718F6D11DDB322080 /* Pods_KoronaHaber.framework */,
+				662CDD8D8E02606EC94DD7B1 /* Pods_KoronaHaber_KoronaHaberUITests.framework */,
+				DD700EF7B9D17BCB4D0F8188 /* Pods_KoronaHaberTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0097A4B5243147FA00E2A68C /* Build configuration list for PBXNativeTarget "KoronaHaber" */;
 			buildPhases = (
+				E3F13C92F29AB3ADA521F2D0 /* [CP] Check Pods Manifest.lock */,
 				0097A484243147F900E2A68C /* Sources */,
 				0097A485243147F900E2A68C /* Frameworks */,
 				0097A486243147F900E2A68C /* Resources */,
+				DC6CFF851E0883BF255A7847 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0097A4B8243147FA00E2A68C /* Build configuration list for PBXNativeTarget "KoronaHaberTests" */;
 			buildPhases = (
+				1F9037AB901402516BE4D654 /* [CP] Check Pods Manifest.lock */,
 				0097A49D243147FA00E2A68C /* Sources */,
 				0097A49E243147FA00E2A68C /* Frameworks */,
 				0097A49F243147FA00E2A68C /* Resources */,
@@ -182,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0097A4BB243147FA00E2A68C /* Build configuration list for PBXNativeTarget "KoronaHaberUITests" */;
 			buildPhases = (
+				9A45D43CF10EFA6949E7F18E /* [CP] Check Pods Manifest.lock */,
 				0097A4A8243147FA00E2A68C /* Sources */,
 				0097A4A9243147FA00E2A68C /* Frameworks */,
 				0097A4AA243147FA00E2A68C /* Resources */,
+				8CCA2570F9A0502B1135D2C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,6 +299,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0097A49B243147FA00E2A68C /* LaunchScreen.storyboard in Resources */,
+				00F9CEBE2431F08800C15F30 /* GoogleService-Info.plist in Resources */,
+				0013014524321E02003750CC /* stay-home.json in Resources */,
 				0097A498243147FA00E2A68C /* Assets.xcassets in Resources */,
 				0097A493243147F900E2A68C /* Main.storyboard in Resources */,
 			);
@@ -266,6 +322,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F9037AB901402516BE4D654 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoronaHaberTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CCA2570F9A0502B1135D2C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaber-KoronaHaberUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaber-KoronaHaberUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaber-KoronaHaberUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A45D43CF10EFA6949E7F18E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoronaHaber-KoronaHaberUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6CFF851E0883BF255A7847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoronaHaber/Pods-KoronaHaber-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoronaHaber/Pods-KoronaHaber-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KoronaHaber/Pods-KoronaHaber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F13C92F29AB3ADA521F2D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoronaHaber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0097A484243147F900E2A68C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,6 +437,7 @@
 				00E74F3724314D9C00CA90DB /* NotificationsViewController.swift in Sources */,
 				0097A48C243147F900E2A68C /* AppDelegate.swift in Sources */,
 				0097A48E243147F900E2A68C /* SceneDelegate.swift in Sources */,
+				00CDDDFF243215C7008753BE /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +608,7 @@
 		};
 		0097A4B6243147FA00E2A68C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A35D6D22670BC576E11CCE20 /* Pods-KoronaHaber.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +627,7 @@
 		};
 		0097A4B7243147FA00E2A68C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC425C79F03BFAA48ED82896 /* Pods-KoronaHaber.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +646,7 @@
 		};
 		0097A4B9243147FA00E2A68C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AAD22C88365CC08A8D4BC1 /* Pods-KoronaHaberTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +669,7 @@
 		};
 		0097A4BA243147FA00E2A68C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F984AA020BE7BAB6CE2BAD6 /* Pods-KoronaHaberTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +692,7 @@
 		};
 		0097A4BC243147FA00E2A68C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7664F2582CE11E1E9A4CC23D /* Pods-KoronaHaber-KoronaHaberUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +713,7 @@
 		};
 		0097A4BD243147FA00E2A68C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547D5E2B11B2093CCAB87306 /* Pods-KoronaHaber-KoronaHaberUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
