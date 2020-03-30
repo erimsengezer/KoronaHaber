@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0013014524321E02003750CC /* stay-home.json in Resources */ = {isa = PBXBuildFile; fileRef = 0013014424321E02003750CC /* stay-home.json */; };
+		0013014724322E58003750CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0013014624322E58003750CC /* GoogleService-Info.plist */; };
 		0097A48C243147F900E2A68C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A48B243147F900E2A68C /* AppDelegate.swift */; };
 		0097A48E243147F900E2A68C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A48D243147F900E2A68C /* SceneDelegate.swift */; };
 		0097A490243147F900E2A68C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A48F243147F900E2A68C /* ViewController.swift */; };
@@ -18,12 +19,14 @@
 		0097A4A6243147FA00E2A68C /* KoronaHaberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A4A5243147FA00E2A68C /* KoronaHaberTests.swift */; };
 		0097A4B1243147FA00E2A68C /* KoronaHaberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A4B0243147FA00E2A68C /* KoronaHaberUITests.swift */; };
 		00CDDDFF243215C7008753BE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDDDFE243215C7008753BE /* WebViewController.swift */; };
+		00D2782424326AC300B3A647 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D2782324326AC300B3A647 /* NotificationService.swift */; };
+		00D2782824326AC300B3A647 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 00D2782124326AC300B3A647 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		00E74F3524314D5F00CA90DB /* CautionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E74F3424314D5F00CA90DB /* CautionViewController.swift */; };
 		00E74F3724314D9C00CA90DB /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E74F3624314D9C00CA90DB /* NotificationsViewController.swift */; };
 		00E74F39243150B000CA90DB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E74F38243150B000CA90DB /* CollectionViewCell.swift */; };
-		00F9CEBE2431F08800C15F30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00F9CEBD2431F08800C15F30 /* GoogleService-Info.plist */; };
 		5D6018D3D0277FAB4906990A /* Pods_KoronaHaber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E07996718F6D11DDB322080 /* Pods_KoronaHaber.framework */; };
 		DEC5E90F1512E14A26FF82F8 /* Pods_KoronaHaber_KoronaHaberUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662CDD8D8E02606EC94DD7B1 /* Pods_KoronaHaber_KoronaHaberUITests.framework */; };
+		E1819A7BEC71E1E3DB42E902 /* Pods_KoronaHaber_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A400293AF4E4CDBD4CB4A7A /* Pods_KoronaHaber_OneSignalNotificationServiceExtension.framework */; };
 		F7FA2ABA4D45DFF674205C8C /* Pods_KoronaHaberTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD700EF7B9D17BCB4D0F8188 /* Pods_KoronaHaberTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,10 +45,32 @@
 			remoteGlobalIDString = 0097A487243147F900E2A68C;
 			remoteInfo = KoronaHaber;
 		};
+		00D2782624326AC300B3A647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0097A480243147F900E2A68C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D2782024326AC300B3A647;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00D2782C24326AC400B3A647 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00D2782824326AC300B3A647 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0013014424321E02003750CC /* stay-home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "stay-home.json"; sourceTree = "<group>"; };
+		0013014624322E58003750CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0097A488243147F900E2A68C /* KoronaHaber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoronaHaber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0097A48B243147F900E2A68C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0097A48D243147F900E2A68C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,15 +87,21 @@
 		0097A4B0243147FA00E2A68C /* KoronaHaberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoronaHaberUITests.swift; sourceTree = "<group>"; };
 		0097A4B2243147FA00E2A68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00CDDDFE243215C7008753BE /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		00D2781A2432358C00B3A647 /* KoronaHaber.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KoronaHaber.entitlements; sourceTree = "<group>"; };
+		00D2782124326AC300B3A647 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D2782324326AC300B3A647 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		00D2782524326AC300B3A647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E74F3424314D5F00CA90DB /* CautionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CautionViewController.swift; sourceTree = "<group>"; };
 		00E74F3624314D9C00CA90DB /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		00E74F38243150B000CA90DB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		00F9CEBD2431F08800C15F30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0E07996718F6D11DDB322080 /* Pods_KoronaHaber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoronaHaber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A400293AF4E4CDBD4CB4A7A /* Pods_KoronaHaber_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoronaHaber_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AAD22C88365CC08A8D4BC1 /* Pods-KoronaHaberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaberTests.debug.xcconfig"; path = "Target Support Files/Pods-KoronaHaberTests/Pods-KoronaHaberTests.debug.xcconfig"; sourceTree = "<group>"; };
 		547D5E2B11B2093CCAB87306 /* Pods-KoronaHaber-KoronaHaberUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaber-KoronaHaberUITests.release.xcconfig"; path = "Target Support Files/Pods-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaber-KoronaHaberUITests.release.xcconfig"; sourceTree = "<group>"; };
 		662CDD8D8E02606EC94DD7B1 /* Pods_KoronaHaber_KoronaHaberUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoronaHaber_KoronaHaberUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC41019DFBC5A338A8098B8 /* Pods-KoronaHaber-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaber-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-KoronaHaber-OneSignalNotificationServiceExtension/Pods-KoronaHaber-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		7664F2582CE11E1E9A4CC23D /* Pods-KoronaHaber-KoronaHaberUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaber-KoronaHaberUITests.debug.xcconfig"; path = "Target Support Files/Pods-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaber-KoronaHaberUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E457872CE603D3890D03C8E /* Pods-KoronaHaber-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaber-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-KoronaHaber-OneSignalNotificationServiceExtension/Pods-KoronaHaber-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		9F984AA020BE7BAB6CE2BAD6 /* Pods-KoronaHaberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaberTests.release.xcconfig"; path = "Target Support Files/Pods-KoronaHaberTests/Pods-KoronaHaberTests.release.xcconfig"; sourceTree = "<group>"; };
 		A35D6D22670BC576E11CCE20 /* Pods-KoronaHaber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaber.debug.xcconfig"; path = "Target Support Files/Pods-KoronaHaber/Pods-KoronaHaber.debug.xcconfig"; sourceTree = "<group>"; };
 		DD700EF7B9D17BCB4D0F8188 /* Pods_KoronaHaberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoronaHaberTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +133,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00D2781E24326AC300B3A647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1819A7BEC71E1E3DB42E902 /* Pods_KoronaHaber_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -111,6 +150,7 @@
 				0097A48A243147F900E2A68C /* KoronaHaber */,
 				0097A4A4243147FA00E2A68C /* KoronaHaberTests */,
 				0097A4AF243147FA00E2A68C /* KoronaHaberUITests */,
+				00D2782224326AC300B3A647 /* OneSignalNotificationServiceExtension */,
 				0097A489243147F900E2A68C /* Products */,
 				1A6BE1B59C32468E0DD584CC /* Pods */,
 				5C82CE523F7DCE96986EE942 /* Frameworks */,
@@ -123,6 +163,7 @@
 				0097A488243147F900E2A68C /* KoronaHaber.app */,
 				0097A4A1243147FA00E2A68C /* KoronaHaberTests.xctest */,
 				0097A4AC243147FA00E2A68C /* KoronaHaberUITests.xctest */,
+				00D2782124326AC300B3A647 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,20 +171,21 @@
 		0097A48A243147F900E2A68C /* KoronaHaber */ = {
 			isa = PBXGroup;
 			children = (
+				00D2781A2432358C00B3A647 /* KoronaHaber.entitlements */,
 				0097A48B243147F900E2A68C /* AppDelegate.swift */,
 				0097A48D243147F900E2A68C /* SceneDelegate.swift */,
 				0097A48F243147F900E2A68C /* ViewController.swift */,
 				00E74F3424314D5F00CA90DB /* CautionViewController.swift */,
 				00E74F3624314D9C00CA90DB /* NotificationsViewController.swift */,
 				00E74F38243150B000CA90DB /* CollectionViewCell.swift */,
+				00CDDDFE243215C7008753BE /* WebViewController.swift */,
 				0097A491243147F900E2A68C /* Main.storyboard */,
 				0097A497243147FA00E2A68C /* Assets.xcassets */,
 				0013014424321E02003750CC /* stay-home.json */,
 				0097A499243147FA00E2A68C /* LaunchScreen.storyboard */,
 				0097A49C243147FA00E2A68C /* Info.plist */,
+				0013014624322E58003750CC /* GoogleService-Info.plist */,
 				0097A494243147F900E2A68C /* KoronaHaber.xcdatamodeld */,
-				00F9CEBD2431F08800C15F30 /* GoogleService-Info.plist */,
-				00CDDDFE243215C7008753BE /* WebViewController.swift */,
 			);
 			path = KoronaHaber;
 			sourceTree = "<group>";
@@ -166,6 +208,15 @@
 			path = KoronaHaberUITests;
 			sourceTree = "<group>";
 		};
+		00D2782224326AC300B3A647 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				00D2782324326AC300B3A647 /* NotificationService.swift */,
+				00D2782524326AC300B3A647 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 		1A6BE1B59C32468E0DD584CC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +226,8 @@
 				547D5E2B11B2093CCAB87306 /* Pods-KoronaHaber-KoronaHaberUITests.release.xcconfig */,
 				44AAD22C88365CC08A8D4BC1 /* Pods-KoronaHaberTests.debug.xcconfig */,
 				9F984AA020BE7BAB6CE2BAD6 /* Pods-KoronaHaberTests.release.xcconfig */,
+				6FC41019DFBC5A338A8098B8 /* Pods-KoronaHaber-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				7E457872CE603D3890D03C8E /* Pods-KoronaHaber-OneSignalNotificationServiceExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -185,6 +238,7 @@
 				0E07996718F6D11DDB322080 /* Pods_KoronaHaber.framework */,
 				662CDD8D8E02606EC94DD7B1 /* Pods_KoronaHaber_KoronaHaberUITests.framework */,
 				DD700EF7B9D17BCB4D0F8188 /* Pods_KoronaHaberTests.framework */,
+				2A400293AF4E4CDBD4CB4A7A /* Pods_KoronaHaber_OneSignalNotificationServiceExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -201,10 +255,12 @@
 				0097A485243147F900E2A68C /* Frameworks */,
 				0097A486243147F900E2A68C /* Resources */,
 				DC6CFF851E0883BF255A7847 /* [CP] Embed Pods Frameworks */,
+				00D2782C24326AC400B3A647 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				00D2782724326AC300B3A647 /* PBXTargetDependency */,
 			);
 			name = KoronaHaber;
 			productName = KoronaHaber;
@@ -250,6 +306,24 @@
 			productReference = 0097A4AC243147FA00E2A68C /* KoronaHaberUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		00D2782024326AC300B3A647 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D2782924326AC400B3A647 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				17993218C388CA5E518CE749 /* [CP] Check Pods Manifest.lock */,
+				00D2781D24326AC300B3A647 /* Sources */,
+				00D2781E24326AC300B3A647 /* Frameworks */,
+				00D2781F24326AC300B3A647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 00D2782124326AC300B3A647 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -271,6 +345,9 @@
 						CreatedOnToolsVersion = 11.3;
 						TestTargetID = 0097A487243147F900E2A68C;
 					};
+					00D2782024326AC300B3A647 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 				};
 			};
 			buildConfigurationList = 0097A483243147F900E2A68C /* Build configuration list for PBXProject "KoronaHaber" */;
@@ -289,6 +366,7 @@
 				0097A487243147F900E2A68C /* KoronaHaber */,
 				0097A4A0243147FA00E2A68C /* KoronaHaberTests */,
 				0097A4AB243147FA00E2A68C /* KoronaHaberUITests */,
+				00D2782024326AC300B3A647 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -299,8 +377,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0097A49B243147FA00E2A68C /* LaunchScreen.storyboard in Resources */,
-				00F9CEBE2431F08800C15F30 /* GoogleService-Info.plist in Resources */,
 				0013014524321E02003750CC /* stay-home.json in Resources */,
+				0013014724322E58003750CC /* GoogleService-Info.plist in Resources */,
 				0097A498243147FA00E2A68C /* Assets.xcassets in Resources */,
 				0097A493243147F900E2A68C /* Main.storyboard in Resources */,
 			);
@@ -320,9 +398,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00D2781F24326AC300B3A647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		17993218C388CA5E518CE749 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoronaHaber-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1F9037AB901402516BE4D654 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,6 +564,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00D2781D24326AC300B3A647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D2782424326AC300B3A647 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -469,6 +584,11 @@
 			isa = PBXTargetDependency;
 			target = 0097A487243147F900E2A68C /* KoronaHaber */;
 			targetProxy = 0097A4AD243147FA00E2A68C /* PBXContainerItemProxy */;
+		};
+		00D2782724326AC300B3A647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00D2782024326AC300B3A647 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 00D2782624326AC300B3A647 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -610,15 +730,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A35D6D22670BC576E11CCE20 /* Pods-KoronaHaber.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KoronaHaber/KoronaHaber.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WSLYZ8952Q;
+				DEVELOPMENT_TEAM = 2A5XAKZYWS;
 				INFOPLIST_FILE = KoronaHaber/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.erimsengezer.KoronaHaber;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erimsengezer.KoronaHaberleriApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -629,15 +751,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC425C79F03BFAA48ED82896 /* Pods-KoronaHaber.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KoronaHaber/KoronaHaber.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WSLYZ8952Q;
+				DEVELOPMENT_TEAM = 2A5XAKZYWS;
 				INFOPLIST_FILE = KoronaHaber/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.erimsengezer.KoronaHaber;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erimsengezer.KoronaHaberleriApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -732,6 +856,46 @@
 			};
 			name = Release;
 		};
+		00D2782A24326AC400B3A647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC41019DFBC5A338A8098B8 /* Pods-KoronaHaber-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A5XAKZYWS;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erimsengezer.KoronaHaberleriApp.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00D2782B24326AC400B3A647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E457872CE603D3890D03C8E /* Pods-KoronaHaber-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A5XAKZYWS;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erimsengezer.KoronaHaberleriApp.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -767,6 +931,15 @@
 			buildConfigurations = (
 				0097A4BC243147FA00E2A68C /* Debug */,
 				0097A4BD243147FA00E2A68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D2782924326AC400B3A647 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D2782A24326AC400B3A647 /* Debug */,
+				00D2782B24326AC400B3A647 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

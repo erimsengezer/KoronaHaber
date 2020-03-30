@@ -156,7 +156,7 @@ extension ViewController : UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CollectionViewCell
         let imageURL = URL(string: images[indexPath.row])!
-        cell.imageView.af_setImage(withURL: imageURL)
+//        cell.imageView.af_setImage(withURL: imageURL)
         cell.label.text = titles[indexPath.row]
 //        cell.imageView.image = UIImage(named: "home")
 //        cell.label.text = "titles.first"

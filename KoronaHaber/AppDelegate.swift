@@ -9,6 +9,7 @@
 import UIKit
 import CoreData
 import Firebase
+import OneSignal
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,6 +18,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        
+        //START OneSignal initialization code
+        let onesignalInitSettings = [kOSSettingsKeyAutoPrompt: false]
+
+        // Replace 'YOUR_APP_ID' with your OneSignal App ID.
+        OneSignal.initWithLaunchOptions(launchOptions,
+        appId: "e9ebeb1a-ed70-4509-b483-fa9f96507257",
+        handleNotificationAction: nil,
+        settings: onesignalInitSettings)
+
+        OneSignal.inFocusDisplayType = OSNotificationDisplayType.notification;
+
+        // Recommend moving the below line to prompt for push after informing the user about
+        //   how your app will use them.
+        OneSignal.promptForPushNotifications(userResponse: { accepted in
+        print("User accepted notifications: \(accepted)")
+        })
+        //END OneSignal initializataion code
+        
+        
         return true
     }
 
