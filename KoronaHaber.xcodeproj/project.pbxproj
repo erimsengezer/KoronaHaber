@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,7 +26,7 @@
 		00E74F39243150B000CA90DB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E74F38243150B000CA90DB /* CollectionViewCell.swift */; };
 		0C0BA961913FCCD6F5CB7983 /* Pods_KoronaHaberApp_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5CC907563570F06D68E23F /* Pods_KoronaHaberApp_OneSignalNotificationServiceExtension.framework */; };
 		10E8B9C0BFBA999DE65967AB /* Pods_KoronaHaberApp_KoronaHaber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785831254642FC6901FF3CD7 /* Pods_KoronaHaberApp_KoronaHaber.framework */; };
-		E54F28AD243296C900010CF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E54F28AC243296C800010CF8 /* GoogleService-Info.plist */; };
+		E56098202433D9A70087BC27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E560981F2433D9A70087BC27 /* GoogleService-Info.plist */; };
 		F7FA2ABA4D45DFF674205C8C /* Pods_KoronaHaberTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD700EF7B9D17BCB4D0F8188 /* Pods_KoronaHaberTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -109,7 +109,7 @@
 		B31F4164861A3EC6A12703D2 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.debug.xcconfig"; path = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BABAD031EFE866EB0FECFD55 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.release.xcconfig"; path = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DD700EF7B9D17BCB4D0F8188 /* Pods_KoronaHaberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoronaHaberTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E54F28AC243296C800010CF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E560981F2433D9A70087BC27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EC425C79F03BFAA48ED82896 /* Pods-KoronaHaber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaber.release.xcconfig"; path = "Target Support Files/Pods-KoronaHaber/Pods-KoronaHaber.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,7 +189,7 @@
 				0097A499243147FA00E2A68C /* LaunchScreen.storyboard */,
 				0097A49C243147FA00E2A68C /* Info.plist */,
 				0097A494243147F900E2A68C /* KoronaHaber.xcdatamodeld */,
-				E54F28AC243296C800010CF8 /* GoogleService-Info.plist */,
+				E560981F2433D9A70087BC27 /* GoogleService-Info.plist */,
 			);
 			path = KoronaHaber;
 			sourceTree = "<group>";
@@ -265,6 +265,7 @@
 				0097A485243147F900E2A68C /* Frameworks */,
 				0097A486243147F900E2A68C /* Resources */,
 				00D2782C24326AC400B3A647 /* Embed App Extensions */,
+				B2B16E3DB67610F04E027A0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,6 +304,7 @@
 				0097A4A8243147FA00E2A68C /* Sources */,
 				0097A4A9243147FA00E2A68C /* Frameworks */,
 				0097A4AA243147FA00E2A68C /* Resources */,
+				9124F04CA251C874EC819044 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -386,7 +388,7 @@
 			files = (
 				0097A49B243147FA00E2A68C /* LaunchScreen.storyboard in Resources */,
 				0013014524321E02003750CC /* stay-home.json in Resources */,
-				E54F28AD243296C900010CF8 /* GoogleService-Info.plist in Resources */,
+				E56098202433D9A70087BC27 /* GoogleService-Info.plist in Resources */,
 				0097A498243147FA00E2A68C /* Assets.xcassets in Resources */,
 				0097A493243147F900E2A68C /* Main.storyboard in Resources */,
 			);
@@ -460,6 +462,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9124F04CA251C874EC819044 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9A45D43CF10EFA6949E7F18E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -480,6 +499,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B16E3DB67610F04E027A0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoronaHaberApp-KoronaHaber/Pods-KoronaHaberApp-KoronaHaber-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoronaHaberApp-KoronaHaber/Pods-KoronaHaberApp-KoronaHaber-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KoronaHaberApp-KoronaHaber/Pods-KoronaHaberApp-KoronaHaber-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E3F13C92F29AB3ADA521F2D0 /* [CP] Check Pods Manifest.lock */ = {

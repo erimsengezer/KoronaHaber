@@ -5,6 +5,11 @@ target 'KoronaHaber' do
   use_frameworks!
 
 pod 'OneSignal'
+pod 'Firebase/Analytics'
+pod ‘Firebase/Core’
+pod 'Firebase/Firestore'
+pod 'AlamofireImage'
+pod 'lottie-ios'
   target 'KoronaHaberTests' do
     inherit! :search_paths
     # Pods for testing
