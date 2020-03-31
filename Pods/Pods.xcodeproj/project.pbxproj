@@ -1,0 +1,1116 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2A1B76179C6EA7128A7483B2D1A48834 /* OneSignal-iOS13.0 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 86CAC7A9B10A14BF07EA051DE263C856 /* Build configuration list for PBXAggregateTarget "OneSignal-iOS13.0" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "OneSignal-iOS13.0";
+		};
+		7D83A6CBF9A4B3E6FCF48D47A3788F5A /* OneSignal-iOS13.2 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EFFEBC27339E102D0817D081F43179BA /* Build configuration list for PBXAggregateTarget "OneSignal-iOS13.2" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "OneSignal-iOS13.2";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1CDDA82AAF7B6B4F22B8EE0E8583CDFF /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6718E73CE8E47725DA1E37F465C9DCE3 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-dummy.m */; };
+		3DEEB230DC368CF5AB13C6A8C182F428 /* Pods-KoronaHaberApp-KoronaHaber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E108FB1F8FF98920A9D054A72D66B1DC /* Pods-KoronaHaberApp-KoronaHaber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B86BFA04F2A277A82D515F6110FA4AC /* Pods-KoronaHaberApp-KoronaHaber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F68B619B61AA587596E2D3CE7E06D531 /* Pods-KoronaHaberApp-KoronaHaber-dummy.m */; };
+		6DB91633F3E01037A3333FD1C0C9067E /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A941236027B8323521672B71CB6D9443 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FCD063D70C3FEE4F6CAB6E6B589F26F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		77E667433BEE17AA01F97BD1366E244C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A52E1490A0463D3DEA598A4BAA9FE7AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B3456A0E228C16FD5142F765EE009354 /* Pods-KoronaHaberTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD7E1FE74743C29F944769AFA6D1B0B /* Pods-KoronaHaberTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D65F64B997A94209BE5C61A7DA065BE9 /* Pods-KoronaHaberTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6526B9EB6E0BC0ED51BE1E46065583 /* Pods-KoronaHaberTests-dummy.m */; };
+		D79EC19CDBE20582C40400752C384F11 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA5FEA3BDF9FCA47D4BCE8B407347E9 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-dummy.m */; };
+		DAF0313178C973CCFE9C2C67C0CB7B36 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E485FBB58F71EAAD6A8C63E5F64ABE7A /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF043644CAE3B86C3847DF54D0B8113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64A1E0249CF584BE7FD31C91CD9FC432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D462570A0D25CE995DFE82C14777B312;
+			remoteInfo = "Pods-KoronaHaberApp-KoronaHaber";
+		};
+		A3A3C6BA8C2B096E25E7C79025E4C6F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A1B76179C6EA7128A7483B2D1A48834;
+			remoteInfo = "OneSignal-iOS13.0";
+		};
+		A5F6E4DD4A6A3BE73843FEE6F5D3472F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A1B76179C6EA7128A7483B2D1A48834;
+			remoteInfo = "OneSignal-iOS13.0";
+		};
+		C0F980809BD20DB7034C1698A03FAFBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D83A6CBF9A4B3E6FCF48D47A3788F5A;
+			remoteInfo = "OneSignal-iOS13.2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065531592141DF4F508C5E248B869E11 /* OneSignal-iOS13.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OneSignal-iOS13.2.release.xcconfig"; path = "../OneSignal-iOS13.2/OneSignal-iOS13.2.release.xcconfig"; sourceTree = "<group>"; };
+		067A2FBC127A81BCD967F08964D946E6 /* Pods_KoronaHaberApp_KoronaHaber_KoronaHaberUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KoronaHaberApp_KoronaHaber_KoronaHaberUITests.framework; path = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C56CA89901ADEC8BEB64977623FD100 /* Pods-KoronaHaberApp-KoronaHaber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KoronaHaberApp-KoronaHaber.modulemap"; sourceTree = "<group>"; };
+		0F6BD7D22C6ADB01BF46AE87C9B5E2E8 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = iOS_SDK/OneSignalSDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
+		12C13D7A9ACFE15291BE4E263ACA351A /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
+		254FDF6D4C1D01DDC6CCA384180FF733 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35E1CE395479643851365F6BD695219F /* Pods-KoronaHaberApp-KoronaHaber-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KoronaHaberApp-KoronaHaber-Info.plist"; sourceTree = "<group>"; };
+		390E7FC3E077425CEBF8FE38044A8148 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F0FFD750FAE14130D0E675B2571C9D5 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4172499C503173E277FF3B9543079D2B /* Pods-KoronaHaberTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KoronaHaberTests.modulemap"; sourceTree = "<group>"; };
+		465CFD3BC114F80EC0A11F52A21F71BE /* Pods-KoronaHaberApp-KoronaHaber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoronaHaberApp-KoronaHaber.release.xcconfig"; sourceTree = "<group>"; };
+		5E243E4F4639FCD13DBF250289CC764F /* Pods-KoronaHaberTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KoronaHaberTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63257EB1D516581AECBEAEB1BDDF6A09 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6718E73CE8E47725DA1E37F465C9DCE3 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-dummy.m"; sourceTree = "<group>"; };
+		75CBD9F15C86CF74B31C3FA96C2848E0 /* Pods-KoronaHaberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoronaHaberTests.release.xcconfig"; sourceTree = "<group>"; };
+		801EDD49D712B7704039F324AE3C25BE /* Pods_KoronaHaberApp_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KoronaHaberApp_OneSignalNotificationServiceExtension.framework; path = "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F9B5AF8825E78C145B28C24B098A0C /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		857F1F73B0AB21FCF4B6208F65254AE2 /* OneSignal-iOS13.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OneSignal-iOS13.0.release.xcconfig"; sourceTree = "<group>"; };
+		871D6B2708707961F0DCFE6C280893B6 /* Pods-KoronaHaberTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KoronaHaberTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91D0481F788D38DFDBFFC445883170BA /* OneSignal-iOS13.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OneSignal-iOS13.0.debug.xcconfig"; sourceTree = "<group>"; };
+		9CD7E1FE74743C29F944769AFA6D1B0B /* Pods-KoronaHaberTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KoronaHaberTests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8728AEA9A36F179E1C643FA007D4260 /* OneSignal-iOS13.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OneSignal-iOS13.2.debug.xcconfig"; path = "../OneSignal-iOS13.2/OneSignal-iOS13.2.debug.xcconfig"; sourceTree = "<group>"; };
+		A941236027B8323521672B71CB6D9443 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
+		ABE1C08A7126AC478B8AE32A889F6FC3 /* Pods-KoronaHaberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoronaHaberTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF6526B9EB6E0BC0ED51BE1E46065583 /* Pods-KoronaHaberTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KoronaHaberTests-dummy.m"; sourceTree = "<group>"; };
+		C22D599F374897E837B120C159F119A4 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-Info.plist"; sourceTree = "<group>"; };
+		CF109AA32508E583738B969EAA81B1CA /* Pods-KoronaHaberApp-KoronaHaber-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KoronaHaberApp-KoronaHaber-acknowledgements.plist"; sourceTree = "<group>"; };
+		D564E1BD120F782B059AF9DFBEEC1AED /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD843FE6B531B826D5FD9BF7D2DDEDFA /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF405E187F517DCB5784844D0778073D /* Pods_KoronaHaberApp_KoronaHaber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KoronaHaberApp_KoronaHaber.framework; path = "Pods-KoronaHaberApp-KoronaHaber.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E108FB1F8FF98920A9D054A72D66B1DC /* Pods-KoronaHaberApp-KoronaHaber-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KoronaHaberApp-KoronaHaber-umbrella.h"; sourceTree = "<group>"; };
+		E485FBB58F71EAAD6A8C63E5F64ABE7A /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-umbrella.h"; sourceTree = "<group>"; };
+		EDA5FEA3BDF9FCA47D4BCE8B407347E9 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
+		F4DE2F9714C30DD9F943287A942CF2D0 /* Pods-KoronaHaberApp-KoronaHaber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoronaHaberApp-KoronaHaber.debug.xcconfig"; sourceTree = "<group>"; };
+		F5CC3AE2FFF75388775161189F002EBA /* Pods-KoronaHaberApp-KoronaHaber-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KoronaHaberApp-KoronaHaber-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F68B619B61AA587596E2D3CE7E06D531 /* Pods-KoronaHaberApp-KoronaHaber-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KoronaHaberApp-KoronaHaber-dummy.m"; sourceTree = "<group>"; };
+		FA0524F947E82E10DE3229672E58A90E /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		FA05CE041F6E9069207816E1262A32E1 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.modulemap"; sourceTree = "<group>"; };
+		FA2C3C7ED716804B6A784543BA66A45C /* Pods_KoronaHaberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KoronaHaberTests.framework; path = "Pods-KoronaHaberTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF01B50DF6BCC6FABF6792B8787C0BE /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		FECD41487E73E6A6CC5A829F64077B34 /* Pods-KoronaHaberTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KoronaHaberTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		113052BDF1DEC74C7007E779C4B84F00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52E1490A0463D3DEA598A4BAA9FE7AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B41E420E531DD5E9BFAEBEF35F1E075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E667433BEE17AA01F97BD1366E244C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56A1E25F8D0123874399EE586D54A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCD063D70C3FEE4F6CAB6E6B589F26F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42EE33E9476C9F64AFB5FDE7266E450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF043644CAE3B86C3847DF54D0B8113 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E22769E275B9D254309DAC05E4236EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31493E152C6E687A203CDC812D3A4D93 /* Pods-KoronaHaberApp-KoronaHaber */,
+				F186B720298F44D73F2A7FCFA2527C27 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests */,
+				3EED4E4165FD9D574318991888873CE5 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension */,
+				45BC070A04C5F31F97E8DFB9C14C8F1F /* Pods-KoronaHaberTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1D40C0AE1924259957A7C76C1386542E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A46DE85ABCB30C75FFD2C877082AEF7C /* OneSignal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		291A77B7D4FCE6BAF95E2B823968A130 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F6BD7D22C6ADB01BF46AE87C9B5E2E8 /* OneSignal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31493E152C6E687A203CDC812D3A4D93 /* Pods-KoronaHaberApp-KoronaHaber */ = {
+			isa = PBXGroup;
+			children = (
+				0C56CA89901ADEC8BEB64977623FD100 /* Pods-KoronaHaberApp-KoronaHaber.modulemap */,
+				F5CC3AE2FFF75388775161189F002EBA /* Pods-KoronaHaberApp-KoronaHaber-acknowledgements.markdown */,
+				CF109AA32508E583738B969EAA81B1CA /* Pods-KoronaHaberApp-KoronaHaber-acknowledgements.plist */,
+				F68B619B61AA587596E2D3CE7E06D531 /* Pods-KoronaHaberApp-KoronaHaber-dummy.m */,
+				35E1CE395479643851365F6BD695219F /* Pods-KoronaHaberApp-KoronaHaber-Info.plist */,
+				E108FB1F8FF98920A9D054A72D66B1DC /* Pods-KoronaHaberApp-KoronaHaber-umbrella.h */,
+				F4DE2F9714C30DD9F943287A942CF2D0 /* Pods-KoronaHaberApp-KoronaHaber.debug.xcconfig */,
+				465CFD3BC114F80EC0A11F52A21F71BE /* Pods-KoronaHaberApp-KoronaHaber.release.xcconfig */,
+			);
+			name = "Pods-KoronaHaberApp-KoronaHaber";
+			path = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber";
+			sourceTree = "<group>";
+		};
+		3EED4E4165FD9D574318991888873CE5 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				12C13D7A9ACFE15291BE4E263ACA351A /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.modulemap */,
+				3F0FFD750FAE14130D0E675B2571C9D5 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-acknowledgements.markdown */,
+				DD843FE6B531B826D5FD9BF7D2DDEDFA /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-acknowledgements.plist */,
+				EDA5FEA3BDF9FCA47D4BCE8B407347E9 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-dummy.m */,
+				C22D599F374897E837B120C159F119A4 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-Info.plist */,
+				A941236027B8323521672B71CB6D9443 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-umbrella.h */,
+				FA0524F947E82E10DE3229672E58A90E /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				FCF01B50DF6BCC6FABF6792B8787C0BE /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension";
+			path = "Target Support Files/Pods-KoronaHaberApp-OneSignalNotificationServiceExtension";
+			sourceTree = "<group>";
+		};
+		45BC070A04C5F31F97E8DFB9C14C8F1F /* Pods-KoronaHaberTests */ = {
+			isa = PBXGroup;
+			children = (
+				4172499C503173E277FF3B9543079D2B /* Pods-KoronaHaberTests.modulemap */,
+				5E243E4F4639FCD13DBF250289CC764F /* Pods-KoronaHaberTests-acknowledgements.markdown */,
+				871D6B2708707961F0DCFE6C280893B6 /* Pods-KoronaHaberTests-acknowledgements.plist */,
+				BF6526B9EB6E0BC0ED51BE1E46065583 /* Pods-KoronaHaberTests-dummy.m */,
+				FECD41487E73E6A6CC5A829F64077B34 /* Pods-KoronaHaberTests-Info.plist */,
+				9CD7E1FE74743C29F944769AFA6D1B0B /* Pods-KoronaHaberTests-umbrella.h */,
+				ABE1C08A7126AC478B8AE32A889F6FC3 /* Pods-KoronaHaberTests.debug.xcconfig */,
+				75CBD9F15C86CF74B31C3FA96C2848E0 /* Pods-KoronaHaberTests.release.xcconfig */,
+			);
+			name = "Pods-KoronaHaberTests";
+			path = "Target Support Files/Pods-KoronaHaberTests";
+			sourceTree = "<group>";
+		};
+		928CA35E36F2EA59DB64F1F4C59CAF9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF405E187F517DCB5784844D0778073D /* Pods_KoronaHaberApp_KoronaHaber.framework */,
+				067A2FBC127A81BCD967F08964D946E6 /* Pods_KoronaHaberApp_KoronaHaber_KoronaHaberUITests.framework */,
+				801EDD49D712B7704039F324AE3C25BE /* Pods_KoronaHaberApp_OneSignalNotificationServiceExtension.framework */,
+				FA2C3C7ED716804B6A784543BA66A45C /* Pods_KoronaHaberTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A46DE85ABCB30C75FFD2C877082AEF7C /* OneSignal */ = {
+			isa = PBXGroup;
+			children = (
+				291A77B7D4FCE6BAF95E2B823968A130 /* Frameworks */,
+				BF3679E0F9C84E5C306C4E4CF87E7A26 /* Support Files */,
+			);
+			name = OneSignal;
+			path = OneSignal;
+			sourceTree = "<group>";
+		};
+		BF3679E0F9C84E5C306C4E4CF87E7A26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91D0481F788D38DFDBFFC445883170BA /* OneSignal-iOS13.0.debug.xcconfig */,
+				857F1F73B0AB21FCF4B6208F65254AE2 /* OneSignal-iOS13.0.release.xcconfig */,
+				A8728AEA9A36F179E1C643FA007D4260 /* OneSignal-iOS13.2.debug.xcconfig */,
+				065531592141DF4F508C5E248B869E11 /* OneSignal-iOS13.2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OneSignal-iOS13.0";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1D40C0AE1924259957A7C76C1386542E /* Pods */,
+				928CA35E36F2EA59DB64F1F4C59CAF9D /* Products */,
+				0E22769E275B9D254309DAC05E4236EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F186B720298F44D73F2A7FCFA2527C27 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA05CE041F6E9069207816E1262A32E1 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.modulemap */,
+				390E7FC3E077425CEBF8FE38044A8148 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-acknowledgements.markdown */,
+				63257EB1D516581AECBEAEB1BDDF6A09 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-acknowledgements.plist */,
+				6718E73CE8E47725DA1E37F465C9DCE3 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-dummy.m */,
+				254FDF6D4C1D01DDC6CCA384180FF733 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-Info.plist */,
+				E485FBB58F71EAAD6A8C63E5F64ABE7A /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-umbrella.h */,
+				82F9B5AF8825E78C145B28C24B098A0C /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.debug.xcconfig */,
+				D564E1BD120F782B059AF9DFBEEC1AED /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.release.xcconfig */,
+			);
+			name = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests";
+			path = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E8A63A5F6D60A927B0BDFB4ECA3FD08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF0313178C973CCFE9C2C67C0CB7B36 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911B9281482B5902C9C3BE7959EF38AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3456A0E228C16FD5142F765EE009354 /* Pods-KoronaHaberTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971827264F655DFAF4EB5D47C2CEFC1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEEB230DC368CF5AB13C6A8C182F428 /* Pods-KoronaHaberApp-KoronaHaber-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E780D195C4A0632A5ACD202AF94CC458 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB91633F3E01037A3333FD1C0C9067E /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		62BF81EA3A3CBED4BC82742AB0CE6DEC /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67AE816B8B6612632B5617016A15C07A /* Build configuration list for PBXNativeTarget "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests" */;
+			buildPhases = (
+				3E8A63A5F6D60A927B0BDFB4ECA3FD08 /* Headers */,
+				8A5D5BE96F5FDADC87AC4FDF24EF6B76 /* Sources */,
+				2B41E420E531DD5E9BFAEBEF35F1E075 /* Frameworks */,
+				951E5993723175954E21934753CD25FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2061E2BDA1D19CAD5A0563DCF5FC9AA0 /* PBXTargetDependency */,
+			);
+			name = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests";
+			productName = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests";
+			productReference = 067A2FBC127A81BCD967F08964D946E6 /* Pods_KoronaHaberApp_KoronaHaber_KoronaHaberUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83B18E93E0C2AE28D8958C6361FB3727 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61CB33D03CF80D8306C0BBE1D3FD89A /* Build configuration list for PBXNativeTarget "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				E780D195C4A0632A5ACD202AF94CC458 /* Headers */,
+				FD2F257244C2381D11A7E77125B89098 /* Sources */,
+				A56A1E25F8D0123874399EE586D54A7F /* Frameworks */,
+				060539C8D7655F3F248E62EF8C39B7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD862EE31F729888EB60A4A36956ED88 /* PBXTargetDependency */,
+			);
+			name = "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension";
+			productName = "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension";
+			productReference = 801EDD49D712B7704039F324AE3C25BE /* Pods_KoronaHaberApp_OneSignalNotificationServiceExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E31AF5698076108AC799B4C4D9E7C29 /* Pods-KoronaHaberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A44F1583B5A3628FB3D3B4E87BDE44 /* Build configuration list for PBXNativeTarget "Pods-KoronaHaberTests" */;
+			buildPhases = (
+				911B9281482B5902C9C3BE7959EF38AC /* Headers */,
+				02B45CD47B3EFB150DAA2C2DE3AB113F /* Sources */,
+				113052BDF1DEC74C7007E779C4B84F00 /* Frameworks */,
+				AEA996D2776355276A27522F8E1FE2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				347922E1F863F35665519E13CC043875 /* PBXTargetDependency */,
+			);
+			name = "Pods-KoronaHaberTests";
+			productName = "Pods-KoronaHaberTests";
+			productReference = FA2C3C7ED716804B6A784543BA66A45C /* Pods_KoronaHaberTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D462570A0D25CE995DFE82C14777B312 /* Pods-KoronaHaberApp-KoronaHaber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D888E326CE99CBFAE523A36D8815AAD /* Build configuration list for PBXNativeTarget "Pods-KoronaHaberApp-KoronaHaber" */;
+			buildPhases = (
+				971827264F655DFAF4EB5D47C2CEFC1D /* Headers */,
+				2B522F1EEC39EDC2771CC9F020D063C3 /* Sources */,
+				E42EE33E9476C9F64AFB5FDE7266E450 /* Frameworks */,
+				AD2EE901E8483093245AE2797D0B40A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B23BF23B39E0BB46F07ACBD5F55A424 /* PBXTargetDependency */,
+			);
+			name = "Pods-KoronaHaberApp-KoronaHaber";
+			productName = "Pods-KoronaHaberApp-KoronaHaber";
+			productReference = DF405E187F517DCB5784844D0778073D /* Pods_KoronaHaberApp_KoronaHaber.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 928CA35E36F2EA59DB64F1F4C59CAF9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A1B76179C6EA7128A7483B2D1A48834 /* OneSignal-iOS13.0 */,
+				7D83A6CBF9A4B3E6FCF48D47A3788F5A /* OneSignal-iOS13.2 */,
+				D462570A0D25CE995DFE82C14777B312 /* Pods-KoronaHaberApp-KoronaHaber */,
+				62BF81EA3A3CBED4BC82742AB0CE6DEC /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests */,
+				83B18E93E0C2AE28D8958C6361FB3727 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension */,
+				8E31AF5698076108AC799B4C4D9E7C29 /* Pods-KoronaHaberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		060539C8D7655F3F248E62EF8C39B7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951E5993723175954E21934753CD25FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2EE901E8483093245AE2797D0B40A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA996D2776355276A27522F8E1FE2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B45CD47B3EFB150DAA2C2DE3AB113F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65F64B997A94209BE5C61A7DA065BE9 /* Pods-KoronaHaberTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B522F1EEC39EDC2771CC9F020D063C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B86BFA04F2A277A82D515F6110FA4AC /* Pods-KoronaHaberApp-KoronaHaber-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5D5BE96F5FDADC87AC4FDF24EF6B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDDA82AAF7B6B4F22B8EE0E8583CDFF /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2F257244C2381D11A7E77125B89098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79EC19CDBE20582C40400752C384F11 /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2061E2BDA1D19CAD5A0563DCF5FC9AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OneSignal-iOS13.0";
+			target = 2A1B76179C6EA7128A7483B2D1A48834 /* OneSignal-iOS13.0 */;
+			targetProxy = A3A3C6BA8C2B096E25E7C79025E4C6F5 /* PBXContainerItemProxy */;
+		};
+		347922E1F863F35665519E13CC043875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KoronaHaberApp-KoronaHaber";
+			target = D462570A0D25CE995DFE82C14777B312 /* Pods-KoronaHaberApp-KoronaHaber */;
+			targetProxy = 64A1E0249CF584BE7FD31C91CD9FC432 /* PBXContainerItemProxy */;
+		};
+		3B23BF23B39E0BB46F07ACBD5F55A424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OneSignal-iOS13.0";
+			target = 2A1B76179C6EA7128A7483B2D1A48834 /* OneSignal-iOS13.0 */;
+			targetProxy = A5F6E4DD4A6A3BE73843FEE6F5D3472F /* PBXContainerItemProxy */;
+		};
+		BD862EE31F729888EB60A4A36956ED88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OneSignal-iOS13.2";
+			target = 7D83A6CBF9A4B3E6FCF48D47A3788F5A /* OneSignal-iOS13.2 */;
+			targetProxy = C0F980809BD20DB7034C1698A03FAFBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		137CE9A4A9B4781E7BA579FCE33DACEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75CBD9F15C86CF74B31C3FA96C2848E0 /* Pods-KoronaHaberTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KoronaHaberTests/Pods-KoronaHaberTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KoronaHaberTests/Pods-KoronaHaberTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		306DF2818702F6D98E9A969B1BF47159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 465CFD3BC114F80EC0A11F52A21F71BE /* Pods-KoronaHaberApp-KoronaHaber.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber/Pods-KoronaHaberApp-KoronaHaber-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber/Pods-KoronaHaberApp-KoronaHaber.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36487544B7325B9C264A5A2C3D84B586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF01B50DF6BCC6FABF6792B8787C0BE /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KoronaHaberApp-OneSignalNotificationServiceExtension/Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KoronaHaberApp-OneSignalNotificationServiceExtension/Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		366708402CB38565D39BC5F59D0D4EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA0524F947E82E10DE3229672E58A90E /* Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KoronaHaberApp-OneSignalNotificationServiceExtension/Pods-KoronaHaberApp-OneSignalNotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KoronaHaberApp-OneSignalNotificationServiceExtension/Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A198BB52E49525563B28FF286C3C9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D564E1BD120F782B059AF9DFBEEC1AED /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43C96E1511135BB3046D5856F854E6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4DE2F9714C30DD9F943287A942CF2D0 /* Pods-KoronaHaberApp-KoronaHaber.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber/Pods-KoronaHaberApp-KoronaHaber-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber/Pods-KoronaHaberApp-KoronaHaber.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4749273D6CC81FD9BA7C0C22128B69A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8728AEA9A36F179E1C643FA007D4260 /* OneSignal-iOS13.2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D5DD69A1CCD93454260021DD9DD84BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F9B5AF8825E78C145B28C24B098A0C /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F3DFE5A9053B72BA17A25967EDE3A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE1C08A7126AC478B8AE32A889F6FC3 /* Pods-KoronaHaberTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KoronaHaberTests/Pods-KoronaHaberTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KoronaHaberTests/Pods-KoronaHaberTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		646151F80AC4EB1288A8B27210CC8C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857F1F73B0AB21FCF4B6208F65254AE2 /* OneSignal-iOS13.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DEA3B10FB7682ACAF84CC78552172FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065531592141DF4F508C5E248B869E11 /* OneSignal-iOS13.2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F90118D2F6608452B6B2E72293191427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D0481F788D38DFDBFFC445883170BA /* OneSignal-iOS13.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A44F1583B5A3628FB3D3B4E87BDE44 /* Build configuration list for PBXNativeTarget "Pods-KoronaHaberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3DFE5A9053B72BA17A25967EDE3A59 /* Debug */,
+				137CE9A4A9B4781E7BA579FCE33DACEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D888E326CE99CBFAE523A36D8815AAD /* Build configuration list for PBXNativeTarget "Pods-KoronaHaberApp-KoronaHaber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C96E1511135BB3046D5856F854E6D2 /* Debug */,
+				306DF2818702F6D98E9A969B1BF47159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67AE816B8B6612632B5617016A15C07A /* Build configuration list for PBXNativeTarget "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5DD69A1CCD93454260021DD9DD84BE /* Debug */,
+				3A198BB52E49525563B28FF286C3C9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86CAC7A9B10A14BF07EA051DE263C856 /* Build configuration list for PBXAggregateTarget "OneSignal-iOS13.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90118D2F6608452B6B2E72293191427 /* Debug */,
+				646151F80AC4EB1288A8B27210CC8C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61CB33D03CF80D8306C0BBE1D3FD89A /* Build configuration list for PBXNativeTarget "Pods-KoronaHaberApp-OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366708402CB38565D39BC5F59D0D4EF5 /* Debug */,
+				36487544B7325B9C264A5A2C3D84B586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFEBC27339E102D0817D081F43179BA /* Build configuration list for PBXAggregateTarget "OneSignal-iOS13.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4749273D6CC81FD9BA7C0C22128B69A6 /* Debug */,
+				6DEA3B10FB7682ACAF84CC78552172FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

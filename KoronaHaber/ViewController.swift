@@ -7,17 +7,17 @@
 //
 
 import UIKit
-import Firebase
-import FirebaseDatabase
-import AlamofireImage
-import Lottie
+//import Firebase
+//import FirebaseDatabase
+//import AlamofireImage
+//import Lottie
 
 class ViewController: UIViewController {
 
     
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var blurView: UIView!
-    @IBOutlet weak var animationView: AnimationView!
+//    @IBOutlet weak var animationView: AnimationView!
     
     var titles = [String]()
     var descrips = [String]()
@@ -30,52 +30,52 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        getAnimation()
-        getData()
+//        getAnimation()
+//        getData()
         print("News View Controller")
         configureCollectionView()
         
         
     }
     
-    private func getData() {
-        let firestore = Firestore.firestore()
-        
-        firestore.collection("news").addSnapshotListener { (snapshot, error) in
-            if error != nil {
-                print(error?.localizedDescription ?? "Error")
-            }
-            else {
-                if snapshot?.isEmpty != true {
-                    print("aa")
-                    for document in snapshot!.documents {
-                        print("bb")
-                        if let title = document.get("title") as? String {
-                            print("cc")
-                            print(title)
-                            self.titles.append(title)
-                        }
-                        
-                        if let description = document.get("description") as? String {
-                            print(description)
-                            self.descrips.append(description)
-                        }
-                        
-                        if let image = document.get("image") as? String {
-                            print(image)
-                            self.images.append(image)
-                        }
-                        
-                        if let url = document.get("url") as? String {
-                            print(url)
-                            self.urls.append(url)
-                        }
-                    }
-                }
-                self.collectionView.reloadData()
-            }
-        }
-    }
+//    private func getData() {
+//        let firestore = Firestore.firestore()
+//
+//        firestore.collection("news").addSnapshotListener { (snapshot, error) in
+//            if error != nil {
+//                print(error?.localizedDescription ?? "Error")
+//            }
+//            else {
+//                if snapshot?.isEmpty != true {
+//                    print("aa")
+//                    for document in snapshot!.documents {
+//                        print("bb")
+//                        if let title = document.get("title") as? String {
+//                            print("cc")
+//                            print(title)
+//                            self.titles.append(title)
+//                        }
+//
+//                        if let description = document.get("description") as? String {
+//                            print(description)
+//                            self.descrips.append(description)
+//                        }
+//
+//                        if let image = document.get("image") as? String {
+//                            print(image)
+//                            self.images.append(image)
+//                        }
+//
+//                        if let url = document.get("url") as? String {
+//                            print(url)
+//                            self.urls.append(url)
+//                        }
+//                    }
+//                }
+//                self.collectionView.reloadData()
+//            }
+//        }
+//    }
     
     private func configureCollectionView() {
         self.collectionView.delegate = self
@@ -97,39 +97,39 @@ class ViewController: UIViewController {
     
 //MARK: - Loading Animation Start
     
-    func addBlurEffect() {
-        let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.dark)
-        let blurEffectView = UIVisualEffectView(effect: blurEffect)
-        blurEffectView.frame = view.bounds
-        blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        //        view.addSubview(blurEffectView)
-        blurView.addSubview(blurEffectView)
-    }
-    
-    func playAnimation() {
-        addBlurEffect()
-        let stayAnimation = Animation.named("stay-home")
-        
-        animationView.animation = stayAnimation
-        animationView.loopMode = .loop
-        
-        animationView.play()
-    }
-    
-    func stopAnimation() {
-        self.animationView.stop()
-//        self.animationView.removeFromSuperview()
-//        self.blurView.removeFromSuperview()
-        self.animationView.isHidden = true
-        self.blurView.isHidden = true
-    }
-    
-    func getAnimation() {
-        playAnimation()
-        Timer.scheduledTimer(withTimeInterval: 4.0, repeats: false) { (timer) in
-            self.stopAnimation()
-        }
-    }
+//    func addBlurEffect() {
+//        let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.dark)
+//        let blurEffectView = UIVisualEffectView(effect: blurEffect)
+//        blurEffectView.frame = view.bounds
+//        blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+//        //        view.addSubview(blurEffectView)
+//        blurView.addSubview(blurEffectView)
+//    }
+//
+//    func playAnimation() {
+//        addBlurEffect()
+//        let stayAnimation = Animation.named("stay-home")
+//
+//        animationView.animation = stayAnimation
+//        animationView.loopMode = .loop
+//
+//        animationView.play()
+//    }
+//
+//    func stopAnimation() {
+//        self.animationView.stop()
+////        self.animationView.removeFromSuperview()
+////        self.blurView.removeFromSuperview()
+//        self.animationView.isHidden = true
+//        self.blurView.isHidden = true
+//    }
+//
+//    func getAnimation() {
+//        playAnimation()
+//        Timer.scheduledTimer(withTimeInterval: 4.0, repeats: false) { (timer) in
+//            self.stopAnimation()
+//        }
+//    }
 
 
 }
