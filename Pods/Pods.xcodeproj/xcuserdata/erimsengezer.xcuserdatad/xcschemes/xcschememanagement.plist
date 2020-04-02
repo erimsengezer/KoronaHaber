@@ -109,61 +109,68 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
-		<key>OneSignal-iOS13.0.xcscheme</key>
+		<key>MarqueeLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>21</integer>
 		</dict>
-		<key>OneSignal-iOS13.2.xcscheme</key>
+		<key>OneSignal-iOS13.0.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
-		<key>Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>25</integer>
-		</dict>
-		<key>Pods-KoronaHaberApp-KoronaHaber.xcscheme</key>
+		<key>OneSignal-iOS13.2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
-		<key>Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.xcscheme</key>
+		<key>Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>26</integer>
 		</dict>
-		<key>Pods-KoronaHaberTests.xcscheme</key>
+		<key>Pods-KoronaHaberApp-KoronaHaber.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
+		<key>Pods-KoronaHaberApp-OneSignalNotificationServiceExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
-		<key>PromisesObjC.xcscheme</key>
+		<key>Pods-KoronaHaberTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>28</integer>
 		</dict>
-		<key>SDWebImage.xcscheme</key>
+		<key>PromisesObjC.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>29</integer>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>30</integer>
 		</dict>
 		<key>abseil.xcscheme</key>
 		<dict>
@@ -212,7 +219,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>22</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

@@ -12,6 +12,7 @@ import Alamofire
 import AlamofireImage
 import Lottie
 import SDWebImage
+import MarqueeLabel
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var blurView: UIView!
     @IBOutlet weak var animationView: AnimationView!
+    @IBOutlet weak var countLabel: MarqueeLabel!
     
     var titles = [String]()
     var descrips = [String]()
@@ -31,6 +33,9 @@ class ViewController: UIViewController {
     var fetchingMore = false
     var started = 0
     var ended = 20
+    var totalConfirmed = ""
+    var totalDeaths = ""
+    var totalRecovered = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,12 +43,51 @@ class ViewController: UIViewController {
         
         getAnimation()
         getData()
+        getCount()
+        scrollingLabel()
+        
+        
                 
     }
     override func viewDidAppear(_ animated: Bool) {
         self.configureCollectionView()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        NotificationCenter.default.addObserver(self, selector: #selector(scrollingLabel), name: NSNotification.Name(rawValue: "getCount"), object: nil)
+    }
+    
+    @objc private func scrollingLabel() {
+        countLabel.text = " Vaka Sayısı : \(totalConfirmed), Ölüm Sayısı : \(totalDeaths), İyileşen hasta sayısı : \(totalRecovered)"
+        countLabel.type = .continuous
+
+        countLabel.unpauseLabel()
+        countLabel.speed = .rate(50)
+        countLabel.animationDelay = 0.0
+    }
+    
+    private func getCount() {
+        let firestore = Firestore.firestore()
+        
+        firestore.collection("counts").addSnapshotListener { (snapshot, error) in
+            if error == nil {
+                if snapshot?.isEmpty != true {
+                    for document in snapshot!.documents {
+                        if let totalConfirmed = document["totalConfirmed"] {
+                            self.totalConfirmed = totalConfirmed as! String
+                        }
+                        if let totalDeaths = document["totalDeaths"] {
+                            self.totalDeaths = totalDeaths as! String
+                        }
+                        if let totalRecovered = document["totalRecovered"] {
+                            self.totalRecovered = totalRecovered as! String
+                        }
+                    }
+                    NotificationCenter.default.post(name: NSNotification.Name(rawValue: "getCount"), object: nil)
+                }
+            }
+        }
+    }
     
     private func getData() {
         let firestore = Firestore.firestore()
@@ -132,7 +176,7 @@ class ViewController: UIViewController {
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.frame = view.bounds
         blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        //        view.addSubview(blurEffectView)
+//        view.addSubview(blurEffectView)
         blurView.addSubview(blurEffectView)
     }
 
@@ -188,6 +232,7 @@ extension ViewController : UICollectionViewDataSource {
         let imageURL = URL(string: images[indexPath.row])!
         cell.imageView.sd_setImage(with: imageURL, placeholderImage: UIImage(named: "loading.gif"), options: .continueInBackground)
         cell.label.text = titles[indexPath.row]
+        cell.descLabel.text = descrips[indexPath.row]
         return cell
     }
 }

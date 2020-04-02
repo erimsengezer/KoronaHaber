@@ -11,6 +11,7 @@ pod 'Firebase/Firestore'
 pod 'AlamofireImage'
 pod 'lottie-ios'
 pod 'SDWebImage', '~> 5.0'
+pod 'MarqueeLabel/Swift'
   target 'KoronaHaberTests' do
     inherit! :search_paths
     # Pods for testing

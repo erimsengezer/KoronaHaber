@@ -262,6 +262,7 @@ PODS:
   - gRPC-Core/Interface (1.21.0)
   - leveldb-library (1.22)
   - lottie-ios (3.1.6)
+  - MarqueeLabel/Swift (3.2.1)
   - nanopb (0.3.9011):
     - nanopb/decode (= 0.3.9011)
     - nanopb/encode (= 0.3.9011)
@@ -279,6 +280,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Firestore
   - lottie-ios
+  - MarqueeLabel/Swift
   - OneSignal
   - SDWebImage (~> 5.0)
 
@@ -304,6 +306,7 @@ SPEC REPOS:
     - gRPC-Core
     - leveldb-library
     - lottie-ios
+    - MarqueeLabel
     - nanopb
     - OneSignal
     - PromisesObjC
@@ -330,11 +333,12 @@ SPEC CHECKSUMS:
   gRPC-Core: c9aef9a261a1247e881b18059b84d597293c9947
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
+  MarqueeLabel: 2daf039bf916937c8a4c9adfc13577cc5e51b4ce
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   OneSignal: 09c9fe1e7a097af5fda94e00c1598c3c945552b9
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
 
-PODFILE CHECKSUM: f01fbaffd0965ac448728ac682828507811ab03c
+PODFILE CHECKSUM: b36c578e0deaedaee4c64a0c7b56bbb1f87c5042
 
 COCOAPODS: 1.9.1
