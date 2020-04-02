@@ -93,7 +93,7 @@ class ViewController: UIViewController {
         let firestore = Firestore.firestore()
         firestore.collection("news")
             .limit(to: 100)
-            .order(by: "datetime")
+            .order(by: "datetime", descending: true)
             .addSnapshotListener { (snapshot, error) in
             if error != nil {
                 print(error?.localizedDescription ?? "Error")
