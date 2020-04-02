@@ -10,6 +10,7 @@ pod ‘Firebase/Core’
 pod 'Firebase/Firestore'
 pod 'AlamofireImage'
 pod 'lottie-ios'
+pod 'SDWebImage', '~> 5.0'
   target 'KoronaHaberTests' do
     inherit! :search_paths
     # Pods for testing

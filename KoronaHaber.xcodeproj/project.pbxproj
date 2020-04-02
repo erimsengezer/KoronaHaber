@@ -27,6 +27,7 @@
 		0C0BA961913FCCD6F5CB7983 /* Pods_KoronaHaberApp_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5CC907563570F06D68E23F /* Pods_KoronaHaberApp_OneSignalNotificationServiceExtension.framework */; };
 		10E8B9C0BFBA999DE65967AB /* Pods_KoronaHaberApp_KoronaHaber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785831254642FC6901FF3CD7 /* Pods_KoronaHaberApp_KoronaHaber.framework */; };
 		E56098202433D9A70087BC27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E560981F2433D9A70087BC27 /* GoogleService-Info.plist */; };
+		E5EA6A722435E02900FD2FC1 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = E5EA6A712435E02800FD2FC1 /* loading.gif */; };
 		F7FA2ABA4D45DFF674205C8C /* Pods_KoronaHaberTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD700EF7B9D17BCB4D0F8188 /* Pods_KoronaHaberTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +111,7 @@
 		BABAD031EFE866EB0FECFD55 /* Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.release.xcconfig"; path = "Target Support Files/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests/Pods-KoronaHaberApp-KoronaHaber-KoronaHaberUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DD700EF7B9D17BCB4D0F8188 /* Pods_KoronaHaberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoronaHaberTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E560981F2433D9A70087BC27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5EA6A712435E02800FD2FC1 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		EC425C79F03BFAA48ED82896 /* Pods-KoronaHaber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoronaHaber.release.xcconfig"; path = "Target Support Files/Pods-KoronaHaber/Pods-KoronaHaber.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,6 +192,7 @@
 				0097A49C243147FA00E2A68C /* Info.plist */,
 				0097A494243147F900E2A68C /* KoronaHaber.xcdatamodeld */,
 				E560981F2433D9A70087BC27 /* GoogleService-Info.plist */,
+				E5EA6A712435E02800FD2FC1 /* loading.gif */,
 			);
 			path = KoronaHaber;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				0097A49B243147FA00E2A68C /* LaunchScreen.storyboard in Resources */,
 				0013014524321E02003750CC /* stay-home.json in Resources */,
 				E56098202433D9A70087BC27 /* GoogleService-Info.plist in Resources */,
+				E5EA6A722435E02900FD2FC1 /* loading.gif in Resources */,
 				0097A498243147FA00E2A68C /* Assets.xcassets in Resources */,
 				0097A493243147F900E2A68C /* Main.storyboard in Resources */,
 			);

@@ -269,6 +269,9 @@ PODS:
   - nanopb/encode (0.3.9011)
   - OneSignal (2.13.0)
   - PromisesObjC (1.2.8)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
 
 DEPENDENCIES:
   - AlamofireImage
@@ -277,6 +280,7 @@ DEPENDENCIES:
   - Firebase/Firestore
   - lottie-ios
   - OneSignal
+  - SDWebImage (~> 5.0)
 
 SPEC REPOS:
   trunk:
@@ -303,6 +307,7 @@ SPEC REPOS:
     - nanopb
     - OneSignal
     - PromisesObjC
+    - SDWebImage
 
 SPEC CHECKSUMS:
   abseil: 18063d773f5366ff8736a050fe035a28f635fd27
@@ -328,7 +333,8 @@ SPEC CHECKSUMS:
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   OneSignal: 09c9fe1e7a097af5fda94e00c1598c3c945552b9
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
 
-PODFILE CHECKSUM: bbbea58787852863e4fce602efa5ce9bf8abda52
+PODFILE CHECKSUM: f01fbaffd0965ac448728ac682828507811ab03c
 
 COCOAPODS: 1.9.1

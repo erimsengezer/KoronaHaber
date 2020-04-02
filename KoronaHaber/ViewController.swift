@@ -8,8 +8,10 @@
 
 import UIKit
 import Firebase
+import Alamofire
 import AlamofireImage
 import Lottie
+import SDWebImage
 
 class ViewController: UIViewController {
 
@@ -21,6 +23,7 @@ class ViewController: UIViewController {
     var titles = [String]()
     var descrips = [String]()
     var images = [String]()
+    var lastImages = [UIImage]()
     var urls = [String]()
     
     var selectedURL = ""
@@ -31,27 +34,21 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        getAnimation()
-//        getData()
         print("News View Controller")
         
-        let strings = ["John", "Paul", "George", "Ringo"]
-        let uppercased = strings.suffix(2)
-        print("Upper \(uppercased)")
-        
+        getAnimation()
+        getData()
+                
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        self.configureCollectionView()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        getData()
-        configureCollectionView()
-    }
     
     private func getData() {
         let firestore = Firestore.firestore()
         firestore.collection("news")
-            .limit(to: 20)
+            .limit(to: 100)
             .order(by: "datetime")
             .addSnapshotListener { (snapshot, error) in
             if error != nil {
@@ -189,7 +186,7 @@ extension ViewController : UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CollectionViewCell
         let imageURL = URL(string: images[indexPath.row])!
-        cell.imageView.af.setImage(withURL: imageURL)
+        cell.imageView.sd_setImage(with: imageURL, placeholderImage: UIImage(named: "loading.gif"), options: .continueInBackground)
         cell.label.text = titles[indexPath.row]
         return cell
     }
