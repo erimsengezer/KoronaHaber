@@ -13,9 +13,11 @@ import AlamofireImage
 import Lottie
 import SDWebImage
 import MarqueeLabel
+import GoogleMobileAds
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GADInterstitialDelegate {
 
+    var interstitial : GADInterstitial!
     
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var blurView: UIView!
@@ -46,15 +48,30 @@ class ViewController: UIViewController {
         getCount()
         scrollingLabel()
         
-        
-                
+        interstitial = GADInterstitial(adUnitID: "ca-app-pub-9394312041468898/2708871623")
+        interstitial.delegate = self
     }
+    
     override func viewDidAppear(_ animated: Bool) {
         self.configureCollectionView()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         NotificationCenter.default.addObserver(self, selector: #selector(scrollingLabel), name: NSNotification.Name(rawValue: "getCount"), object: nil)
+        loadADS()
+        NotificationCenter.default.addObserver(self, selector: #selector(showADS), name: NSNotification.Name("ADS"), object: nil)
+    }
+    
+    func loadADS() {
+        let request = GADRequest()
+        interstitial.load(request)
+    }
+    
+    @objc func showADS() {
+        if interstitial.isReady {
+            print("Show Ads")
+            interstitial.present(fromRootViewController: self)
+        }
     }
     
     @objc private func scrollingLabel() {
@@ -205,18 +222,46 @@ class ViewController: UIViewController {
         }
     }
 
+    func interstitial(_ ad: GADInterstitial, didFailToReceiveAdWithError error: GADRequestError) {
+        print("interstitialDidFailToReceiveAdWithError:\(error.localizedDescription)")
 
+    }
+
+    func interstitialDidReceiveAd(_ ad: GADInterstitial) {
+        print("interstitialDidReceiveAd")
+
+    }
+
+    func interstitialWillDismissScreen(_ ad: GADInterstitial) {
+        print("interstitialWillDismissScreen")
+
+    }
+
+    func interstitialDidDismissScreen(_ ad: GADInterstitial) {
+        print("interstitialDidDismissScreen")
+        let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "WebView") as! WebViewController
+        vc.choosenURL = selectedURL
+        
+        self.present(vc, animated: true, completion: nil)
+    }
+
+    func interstitialWillLeaveApplication(_ ad: GADInterstitial) {
+        print("interstitialWillLeaveApplication")
+    }
+
+    func interstitialWillPresentScreen(_ ad: GADInterstitial) {
+        print("interstitialWillPresentScreen")
+    }
 }
 
 extension ViewController : UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("Clicked \(titles[indexPath.row])")
         selectedURL = urls[indexPath.row]
-        
         let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "WebView") as! WebViewController
         vc.choosenURL = selectedURL
-        
         self.present(vc, animated: true, completion: nil)
         
     }

@@ -12,6 +12,8 @@ pod 'AlamofireImage'
 pod 'lottie-ios'
 pod 'SDWebImage', '~> 5.0'
 pod 'MarqueeLabel/Swift'
+pod 'Google-Mobile-Ads-SDK'
+
   target 'KoronaHaberTests' do
     inherit! :search_paths
     # Pods for testing
