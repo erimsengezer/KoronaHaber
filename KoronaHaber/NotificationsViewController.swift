@@ -82,6 +82,10 @@ extension NotificationsViewController : UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "NotificationTableViewCell", for: indexPath) as! NotificationTableViewCell
         cell.titleLabel.text = titleArray[indexPath.row]
         cell.descriptionLabel.text = subtitleArray[indexPath.row]
+        
+        let cellWidth = UIScreen.main.bounds.width
+        cell.titleLabel.trailingAnchor.constraint(equalTo: cell.trailingAnchor, constant: -10).isActive = true
+        
         return cell
     }
     

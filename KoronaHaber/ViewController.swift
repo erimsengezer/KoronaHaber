@@ -41,7 +41,7 @@ class ViewController: UIViewController, GADInterstitialDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("News View Controller")
+        setupLayout()
         
         getAnimation()
         getData()
@@ -60,6 +60,20 @@ class ViewController: UIViewController, GADInterstitialDelegate {
         NotificationCenter.default.addObserver(self, selector: #selector(scrollingLabel), name: NSNotification.Name(rawValue: "getCount"), object: nil)
         loadADS()
         NotificationCenter.default.addObserver(self, selector: #selector(showADS), name: NSNotification.Name("ADS"), object: nil)
+    }
+    
+    private func setupLayout() {
+        let width = UIScreen.main.bounds.width
+        let height = UIScreen.main.bounds.height
+        blurView.translatesAutoresizingMaskIntoConstraints = false
+        blurView.widthAnchor.constraint(equalToConstant: width).isActive = true
+        blurView.heightAnchor.constraint(equalToConstant: height).isActive = true
+        blurView.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0).isActive = true
+        blurView.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 0).isActive = true
+        
+        animationView.translatesAutoresizingMaskIntoConstraints = false
+        animationView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        animationView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
     }
     
     func loadADS() {
@@ -189,11 +203,16 @@ class ViewController: UIViewController, GADInterstitialDelegate {
 //MARK: - Loading Animation Start
     
     func addBlurEffect() {
+        view.isUserInteractionEnabled = false
         let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.dark)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.frame = view.bounds
         blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
 //        view.addSubview(blurEffectView)
+        blurEffectView.translatesAutoresizingMaskIntoConstraints = false
+        blurEffectView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width).isActive = true
+        blurEffectView.heightAnchor.constraint(equalToConstant: UIScreen.main.bounds.height).isActive = true
+        
         blurView.addSubview(blurEffectView)
     }
 
@@ -213,6 +232,7 @@ class ViewController: UIViewController, GADInterstitialDelegate {
 //        self.blurView.removeFromSuperview()
         self.animationView.isHidden = true
         self.blurView.isHidden = true
+        view.isUserInteractionEnabled = true
     }
 
     func getAnimation() {
@@ -278,7 +298,27 @@ extension ViewController : UICollectionViewDataSource {
         cell.imageView.sd_setImage(with: imageURL, placeholderImage: UIImage(named: "loading.gif"), options: .continueInBackground)
         cell.label.text = titles[indexPath.row]
         cell.descLabel.text = descrips[indexPath.row]
+        let cellWith = UIScreen.main.bounds.size.width
+        if cellWith <= 320 {
+            
+        }
+        else {
+            cell.descLabel.frame.size.width = cellWith - 50
+            cell.descLabel.translatesAutoresizingMaskIntoConstraints = false
+            cell.descLabel.topAnchor.constraint(equalTo: cell.label.bottomAnchor, constant: 20).isActive = true
+            cell.descLabel.widthAnchor.constraint(equalTo: cell.widthAnchor, constant: 0).isActive = true
+        }
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let cellWith = UIScreen.main.bounds.size.width
+        if cellWith <= 320 {
+            return CGSize(width: cellWith / 2 - 10 , height: cellWith)
+        }
+        else {
+            return CGSize(width: cellWith, height: cellWith)
+        }
     }
 }
 
