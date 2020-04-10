@@ -131,6 +131,10 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corona" translatesAutoresizingMaskIntoConstraints="NO" id="TjU-E1-hNn">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="YT7-XB-7bF" appends="YES" id="oVb-ni-T2h"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -143,8 +147,16 @@
                         <viewLayoutGuide key="safeArea" id="2KJ-s3-tqT"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Önlemler" image="playlist" selectedImage="selectedPlaylist" id="3ha-9K-vva"/>
+                    <connections>
+                        <outlet property="imageView" destination="TjU-E1-hNn" id="ru1-V7-g7j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="24z-F9-t48" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="YT7-XB-7bF">
+                    <connections>
+                        <action selector="scaleImage:" destination="CHN-Za-mSo" id="aKl-0N-QCj"/>
+                    </connections>
+                </pinchGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1814" y="139"/>
         </scene>
